@@ -13,5 +13,5 @@ app.use('/img', express.static(`${__dirname}/static/img`));
 app.use("/", router)
 
 app.listen(port, () => {
-    console.log(`Frontend ${port}`);
+    console.log(`Frontend en el puerto ${port}`);
 })
